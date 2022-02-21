@@ -183,6 +183,25 @@ article img {
 
 
 
+footer {
+}
+.footer_wrap {
+    border-top: 1px solid rgb(204, 204, 204);
+    height: 300px;
+}
+.footer_wrap p {
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:1199px) {
@@ -350,6 +369,18 @@ article img {
         width:30%;
         margin:50px
     }
+
+
+
+
+    .footer_wrap {
+        border-top: 1px solid rgb(204, 204, 204);
+        height: 300px;
+    }
+    .footer_wrap p {
+        margin-top: 100px;
+        font-size: 11px;
+    }
 }
 
 
@@ -400,5 +431,15 @@ article img {
     .item_list > article {
         width:100%;
         margin:0px
+    }
+
+
+
+    .footer_wrap {
+        height: 200px;
+    }
+    .footer_wrap p {
+        margin-top: 60px;
+        font-size: 9px;
     }
 }
